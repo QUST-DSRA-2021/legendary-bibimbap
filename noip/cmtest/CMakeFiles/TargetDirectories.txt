@@ -1,0 +1,3 @@
+/home/sandyzikun/noip/cmtest/CMakeFiles/rebuild_cache.dir
+/home/sandyzikun/noip/cmtest/CMakeFiles/edit_cache.dir
+/home/sandyzikun/noip/cmtest/CMakeFiles/main.dir

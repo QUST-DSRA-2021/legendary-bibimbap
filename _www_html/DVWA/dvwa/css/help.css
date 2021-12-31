@@ -1,0 +1,39 @@
+body {
+	background-color: #e7e7e7;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+h1 {
+	font-size: 25px;
+}
+
+div#container {
+}
+
+div#code {
+	background-color: #ffffff;
+}
+
+div#area {
+	margin-left: 30px;
+}
+
+span.spoiler {
+	background-color: black;
+	color: black;
+}
+
+
+/**
+ * Solarized Light
+ * rgb(192.5, 196.5, 187.0) == mix(0.5 * #93a1a1 + 0.5 * #eee8d5)
+ */
+body {
+	background-color: #eee8d5;
+} div#code {
+	background-color: #fdf6e3;
+} span.spoiler {
+	background-color: #002b36;
+	color: #002b36;
+}
