@@ -1,8 +1,3 @@
----
-date: 2021-12-31
-author: sandyzikun
----
-
 # Legendary Bibimbap
 
 ## Description
