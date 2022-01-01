@@ -2,6 +2,8 @@ channels:
   - defaults
 show_channel_urls: true
 default_channels:
+  # 当出现 `CondaHTTPError: HTTP 000 CONNECTION FAILED` 时可将其中的 "https" 更改为 "http",
+  #  毕竟对面可能几年也想不着换一次证书（
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2
@@ -12,4 +14,5 @@ custom_channels:
   menpo: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
   pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
   simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+# 用于跳过ssl验证
 ssl_verify: false
