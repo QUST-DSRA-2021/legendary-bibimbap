@@ -8,13 +8,20 @@ A simple repo full of *`C/C++/Python` works & materials* in 2021, by **czk**.
 
 这个repo中存放的是我在2021年秋冬写的一些算法数据结构的作业、数学建模与实验的作业、以及我自己尝试去复现别人文章的一些东西，例如左偏红黑树 [^1] [^2] 之类的。
 
-当然，左偏红黑树因为我个人能力有限，只实现了基础操作中的插入，没实现删除，等寒假再说吧 ~~（`咕咕咕~`~~
+~~当然，左偏红黑树因为我个人能力有限，只实现了基础操作中的插入，没实现删除，等寒假再说吧 （`咕咕咕~`~~
+
+`20220328`更新:
+  * `咕咕咕,` llrbt我可能一时半会也搞不出来了
+  * 更新了一个叫`project-idea`的文件夹，里面是之前的`java`作业
 
 ## Structure
 
 ```
 .
+|-.config/pip
 |-.jupyter
+|-.keras
+|  `-datasets
 |-noip
 |  |-2021-[08-12]
 |  |-ahalgo
@@ -32,6 +39,8 @@ A simple repo full of *`C/C++/Python` works & materials* in 2021, by **czk**.
 |  |  `-test-1
 |  |-qust-dsra
 |  `-vc6-new-project
+|-project-idea
+|  `-io/github/sandyzikun
 `-_www_html
    `-DVWA
 ```
